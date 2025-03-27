@@ -1,9 +1,11 @@
+import Navber from "@/Components/Navber";
 
 
 const Home = () => {
   return (
     <div className='pr-2.5 pt-4'>
-      <div className='rounded-2xl p-10  flex justify-between items-center bg-gray-200'>
+      <Navber/>
+      <div className='rounded-2xl p-10 mt-6  flex justify-between items-center bg-gray-200'>
         <div>
        
           <h1>total Employees</h1>
