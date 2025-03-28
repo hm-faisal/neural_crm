@@ -21,7 +21,7 @@ const SettingsPage: React.FC = () => {
           <button
             key={option.id}
             className={`px-4 py-2 rounded-md transition-all duration-200 ${
-              activeTab === option.id ? "bg-blue-500 text-white" : "bg-gray-200 hover:bg-gray-300"
+              activeTab === option.id ? "bg-black text-white" : "bg-gray-200 hover:bg-gray-300"
             }`}
             onClick={() => setActiveTab(option.id)}
           >
