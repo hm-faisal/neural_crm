@@ -94,9 +94,9 @@ const Sidebar = () => {
             <span className="mx-2 text-sm font-medium">Employees</span>
           </Link>
 
-          <a
+          <Link 
             className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-            href="#"
+            href="settings"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
               <path
@@ -107,7 +107,7 @@ const Sidebar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
             <span className="mx-2 text-sm font-medium">Setting</span>
-          </a>
+          </Link>
         </nav>
 
         <div className="mt-6">
